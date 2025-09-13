@@ -1,2 +1,2 @@
-my_name = "XHY"
+my_name = "肖洪溢"
 print("Hello and welcome " + my_name + "!")
