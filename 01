@@ -1,2 +1,9 @@
 my_name = "肖洪溢"
 print("Hello and welcome " + my_name + "!")
+a,b="he",7
+print(a,b)#a="he",b=1
+a=2
+c=a+b
+print(c)
+c=c+a+b#令c的值=原c值+a+b
+print(c)
