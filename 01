@@ -7,3 +7,24 @@ c=a+b
 print(c)
 c=c+a+b#令c的值=原c值+a+b
 print(c)
+a="ABCD"
+b="12345"
+print(a[0])
+a=a+b[0]
+print(a)#字符串标号
+print("5"not in b)
+print("BC"in a)#检验字符串
+int(b)#字符串转整数
+print(b)
+str(b)#整数转字符串
+print(b)
+float(b)#字符串转小数
+print(b)
+b="12345"
+a=3
+print(a+int(b))
+print(eval("a+3"))#eval仅进行内容运算
+list1=[1,2,3,4]#表格
+print(list1[-1])
+list1[3]=25
+print(list1[a])#表格中变量也能做下标
