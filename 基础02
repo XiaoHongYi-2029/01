@@ -1,0 +1,8 @@
+s=input("请输入你的名字:")#创建s的赋值
+print(s+"，你好!")
+a=int(input())
+b=int(input())
+print(a+b)
+s=input()
+numbers=s.split()#split()会把s分成空格隔开的字符表格
+print(int(numbers[0])+int(numbers[-1]))
