@@ -1,0 +1,7 @@
+s=input()
+print("  "+s+"  ")
+print(" "+s+s+s+" ")
+print(s+s+s+s+s)
+a=input()
+numbers=a.split()
+print((int(numbers[0])+int(numbers[1]))*int(numbers[2]))
